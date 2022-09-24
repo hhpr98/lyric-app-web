@@ -9,7 +9,7 @@
     "react-highlight-words": "^0.18.0",
     "react-scripts": "^5.0.1",
     "sweetalert": "^2.1.2",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^3.0.2"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
