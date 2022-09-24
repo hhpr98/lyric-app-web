@@ -3,6 +3,7 @@ import App from './App';
 
 test('renders learn react link', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
+  // TODO: should be fix it
+  const linkElement = screen.getByText(/Tìm kiếm/i);
   expect(linkElement).toBeInTheDocument();
 });
