@@ -1,10 +1,11 @@
-import 'antd/dist/antd.css';
 import { Input, Row, Col, Table, Space, Button, } from 'antd';
 import Highlighter from 'react-highlight-words';
 import { SearchOutlined } from '@ant-design/icons';
 import swal from 'sweetalert';
 import lyricdata from "./data/2020-11-26 21h56m17s.json";
 import { useEffect, useState } from 'react';
+
+import 'antd/dist/antd.min.css';
 
 const { Search } = Input;
 
