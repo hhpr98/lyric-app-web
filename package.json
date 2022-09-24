@@ -1,11 +1,8 @@
 {
   "name": "lyric-app-web",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^14.4.3",
     "antd": "^4.23.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -13,6 +10,11 @@
     "react-scripts": "^5.0.1",
     "sweetalert": "^2.1.2",
     "web-vitals": "^0.2.4"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3"
   },
   "scripts": {
     "start": "react-scripts start",
