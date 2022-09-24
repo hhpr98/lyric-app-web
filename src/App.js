@@ -37,7 +37,6 @@ function App() {
       });
     } else {
       setData(dataSearch);
-      console.log(data);
       swal({
         title: "Thông báo",
         text: "Thành công!",
