@@ -96,8 +96,8 @@ function App() {
           textToHighlight={text ? text.toString() : ''}
         />
       ) : (
-          text
-        ),
+        text
+      ),
   });
 
   let searchInput = "";
@@ -147,7 +147,7 @@ function App() {
         />
       </Col>
       <Col span={16} offset={4} style={{ marginTop: "50px" }}>
-        <Table columns={columns} dataSource={data} />
+        <Table columns={columns} dataSource={data} rowKey="id" />
       </Col>
     </Row>
   );
