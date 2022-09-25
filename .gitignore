@@ -5,6 +5,9 @@
 ### ExpressionEngine ###
 .DS_Store
 
+# React build folder
+build/
+
 # Images
 images/avatars/
 images/captchas/
