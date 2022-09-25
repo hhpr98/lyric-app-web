@@ -4,7 +4,7 @@ const path = require("path");
 // create server
 const app = express();
 // config vars
-const PORT = 3000;
+const PORT = process.env.PORT || 3001;
 const BUILD_FOLDER = "build";
 
 app.use(express.static(path.join(__dirname, BUILD_FOLDER)));
