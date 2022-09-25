@@ -9,7 +9,7 @@ call heroku login
 :: Set remote heroku
 call heroku git:remote -a loi-bai-hat
 :: Set build pack
-:: heroku buildpacks:set mars/create-react-app
+:: heroku buildpacks:set mars/create-react-app :: This build pack is EOL
 :: Deploy to heroku
 call git push heroku main
 :: open site
