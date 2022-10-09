@@ -18,7 +18,8 @@
     "@testing-library/user-event": "^14.4.3"
   },
   "scripts": {
-    "start": "react-scripts build && node server.js",
+    "start": "node server.js",
+    "start:local": "react-scripts build && node server.js",
     "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
