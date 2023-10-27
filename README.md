@@ -5,7 +5,7 @@
 
 1. **Website**
 
-   https://loi-bai-hat.herokuapp.com/
+   https://hhpr98.github.io/lyric-app-web
 
 
 ## 🚀 Using
